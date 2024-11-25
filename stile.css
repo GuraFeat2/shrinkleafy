@@ -89,14 +89,13 @@ legend {
 }
 
 body{
-    background-color: #3d1f03;
-}
-header{
-    
+
     
 }
+
+
 .conteiner{
-    width: 800px;
+    max-width: 800px;
     height: 100%;
     margin: 0 auto;
     
@@ -112,20 +111,23 @@ header{
     margin: 15px 0px 0px 0px;
     width: 100px;
     height: 100px;
+    z-index: 10;
 }
 .img_logo{
     border-radius: 63px;
     width: 100px;
     height: 100px;
     overflow: hidden;
+    z-index: 10;
 }
 .header_name{
     margin: 15px 0px 0px 0px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-family: "Roboto";
+    font-weight: 900;
     font-style: normal;
     font-size: 30px;
-    color: whitesmoke;
+    color: rgba(141, 133, 133, 0.863);
+    z-index: 10;
 }
 
 .gradient-button {
@@ -135,9 +137,10 @@ header{
     padding: 10px 30px;
     margin: 15px 20px;
     border-radius: 10px;
-    background-color: purple;
+    background-color: #9146FF;
     justify-content: center;
     align-items: center;
+    z-index: 10;
   }
 .gradient-button2{
     
@@ -147,9 +150,11 @@ header{
     padding: 10px 30px;
     margin: 15px 20px;
     border-radius: 10px;
-    background-color: #B91212;
+    
+    background: linear-gradient(45deg, #980000, #FF0000);
     justify-content: center;
     align-items: center;
+    z-index: 10;
 }
 .gradient-button3{
     
@@ -159,9 +164,10 @@ header{
     padding: 10px 30px;
     margin: 15px 20px;
     border-radius: 10px;
-    background-color: #024fdd;
+    background: linear-gradient(45deg, #0176CA, #028FF2);
     justify-content: center;
     align-items: center;
+    z-index: 10;
 }
 .gradient-button4{
     
@@ -174,6 +180,7 @@ header{
     background-color: #5602dd;
     justify-content: center;
     align-items: center;
+    z-index: 10;
 }
 .gradient-button5{
     
@@ -186,6 +193,7 @@ header{
     background-color: #db8421;
     justify-content: center;
     align-items: center;
+    z-index: 10;
 }
 .gradient-button6{
     
@@ -198,6 +206,7 @@ header{
     background-color: #CAE5D4;
     justify-content: center;
     align-items: center;
+    z-index: 10;
 }
 .gradient-button7{
     height: 80px;
@@ -206,7 +215,14 @@ header{
     padding: 10px 30px;
     margin: 15px 20px;
     border-radius: 10px;
-    background-color: #0b0166;
+    background: linear-gradient(135deg, #031ee3, #ab00ff);
     justify-content: center;
     align-items: center;
+    z-index: 10;
+}
+.baground{
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(45deg, #4F5927, #19223D);
+    z-index: -1;
 }

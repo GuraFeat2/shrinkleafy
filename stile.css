@@ -221,6 +221,7 @@ body{
     z-index: 10;
 }
 .baground{
+	height: 100%;
     position: absolute;
     inset: 0;
     background: linear-gradient(45deg, #4F5927, #19223D);
